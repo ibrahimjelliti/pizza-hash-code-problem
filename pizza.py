@@ -28,7 +28,8 @@ def write_output(kpizzas,k):
     f.write(str(k)+'\n')
     f.write(kpizzas) 
     f.close()
-#print(sys.argv[1])
+
+#main 
 if sys.argv.__len__() == 2:
     s,m = read_input(sys.argv[1])
 else:
